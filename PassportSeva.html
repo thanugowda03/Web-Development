@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><u>Passport Seva</u></h1>
+    <form action="" method="post">
+    <div>
+    <label for="registartion">Registation to apply at</label><br>
+    <input type="radio" id="registation" name="registration" value="CPV Delhi">CPV Delhi<br>
+    <input type="radio" id="registartion" name="registration" value="Passport Office">Passport Office<br>
+     </label>
+     </div><br>
+     <div>
+     <label for="passport office">Passport Office<small>(As per Present Residential Address)</small></small></label>
+     <select name="select" id=" ">
+       <option value="selecting">---Select---</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Hyderbad">Hyderbad</option>
+        <option value="Goa">Goa</option>
+        <option value="Jaipur">Jaipur</option>
+     </select>
+     </div><br>
+     <div>
+      <label for="uName">Given Name<small>(Max 45 Characters)</small></label>
+    <input type="text" id="uName" name="userName" placeholder="Enter your Name">
+    </div><br>
+    <div>
+      <label for="surName"> Surname<small>(Max 45 Characters)</small></label>
+    <input type="text" id="surName" name="sName" placeholder="Enter your surname">
+    </div><br>
+    <div>
+      <label for="">Date of Birth(DD/MM/YYYY)</label>
+     <input type="date" id="" name="">
+     </div><br>
+     <div>
+      <label for="email">E-mail Id<small>(Max 35 Characters)</small></label>
+    <input type="email" id="email" name="email" placeholder="Enter your E-mail Id">
+    </div><br>
+      <div>
+    <label for="login">Do you want your Login Id to be same as E-mail Id?</label><br>
+    <input type="radio" id="login" name="login" value="Yes">Yes<br>
+    <input type="radio" id="login" name="login" value="No">No<br>
+     </label>
+     </div><br>
+     <div>
+        <label for="Password">Password</label>
+    <input type="text" id="Password" name="pwd" placeholder="Enter your password">
+    </div><br>
+    <div>
+    <label for="CPassword">Confirm Password</label>
+    <input type="text" id="CPassword" name="cpwd" placeholder="Confirm your Name">
+    </div><br>
+    <div>
+     <label for="hint">Hint Question</label>
+     <select name="select" id=" ">
+       <option value="Select">---Select---</option>
+        <option value="birth city">Birth City</option>
+        <option value="Favourite color">Favourite color</option>
+        <option value="Favorite cricketer">Favorite cricketer</option>
+        <option value="Favorite Food">Favorite Food</option>
+     </select>
+     </div><br>
+
+     <div>
+     <label for="answer">Hint Answer</label>
+     <input type="text" id="answer" name="ans" placeholder="Enter your Answer">
+     </div><br>
+     <div>
+    <img src="captcha.jpg" width="120px" height="120px"><br>
+    <label for="captcha">Enter Characters Displayed</label>
+    <input type="text" id="captcha" name="characater" placeholder="Enter the above captcha">
+     </div><br>
+     <input type="submit">
+    <input  type="reset">
+     
+    </form>
+</body>
+</html>
